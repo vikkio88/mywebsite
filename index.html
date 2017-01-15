@@ -1,180 +1,210 @@
 <html>
 
 <head>
-
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	<title>vikkio.it</title>
-
-
-
 	<link rel="apple-touch-icon" sizes="57x57" href="./favicon/apple-icon-57x57.png">
-
 	<link rel="apple-touch-icon" sizes="60x60" href="./favicon/apple-icon-60x60.png">
-
 	<link rel="apple-touch-icon" sizes="72x72" href="./favicon/apple-icon-72x72.png">
-
 	<link rel="apple-touch-icon" sizes="76x76" href="./favicon/apple-icon-76x76.png">
-
 	<link rel="apple-touch-icon" sizes="114x114" href="./favicon/apple-icon-114x114.png">
-
 	<link rel="apple-touch-icon" sizes="120x120" href="./favicon/apple-icon-120x120.png">
-
 	<link rel="apple-touch-icon" sizes="144x144" href="./favicon/apple-icon-144x144.png">
-
 	<link rel="apple-touch-icon" sizes="152x152" href="./favicon/apple-icon-152x152.png">
-
 	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
-
 	<link rel="icon" type="image/png" sizes="192x192" href="./favicon/android-icon-192x192.png">
-
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
-
 	<link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png">
-
 	<link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
-
 	<link rel="manifest" href="./favicon/manifest.json">
 
 	<meta name="msapplication-TileColor" content="#ffffff">
-
 	<meta name="msapplication-TileImage" content="./favicon/ms-icon-144x144.png">
-
 	<meta name="theme-color" content="#ffffff">
 
 	<!--FaceBookShit-->
 
 	<meta property="og:url" content="http://vikkio.it" />
-
 	<meta property="og:type" content="article" />
-
 	<meta property="og:title" content="Vikkio's home" />
-
 	<meta property="og:image" content="http://static.tumblr.com/4d6168a53ac324afb63de8fbbe7f01d1/wdrlgyw/Tx4nj2nwe/tumblr_static_150xcr2yl2g0oskwokkcgkco4.png"
 	/>
-
 	<meta property="og:description" content="Vincenzo's (vikkio's) personal website, a link hub really." />
-
 	<meta property="article:author" content="https://www.facebook.com/vikkio88" />
-
 	<meta property="article:publisher" content="https://www.facebook.com/vikkio88" />
-
 	<meta property="og:locale" content="en_GB" />
-
 	<meta property="og:locale:alternate" content="it_IT" />
 
 	<!--EndOfFaceBookShit-->
 
 
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/basic/jquery.qtip.min.js"></script>
-
-	<script type="text/javascript" src="http://jplayer.org/latest/dist/jplayer/jquery.jplayer.min.js"></script>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/qtip2/2.2.1/basic/jquery.qtip.min.css">
-
-
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
-
-
-
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 
 	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
 	<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<script type="text/javascript">
+	</script>
 
-			function deTamarrize() { $(".title").removeClass("tamarrized"), $("#jquery_jplayer_1").jPlayer("stop"), $("#tamarro").hide(), $("body").removeClass("tamarrbg") } function tamarrize() { $("#tamarro").fadeIn(500, function () { $("#tamarro").fadeOut(700, function () { $("#tamarro").fadeIn(3e3) }) }), $(".title").addClass("tamarrized"); var a = "http://a.tumblr.com/tumblr_m883brctLU1ro4t09o1.mp3"; $("#jquery_jplayer_1").jPlayer({ ready: function () { $(this).jPlayer("setMedia", { mp3: a }).jPlayer("play"); var t = void 0 === document.ontouchstart ? "click" : "touchstart", e = function () { $("#jquery_jplayer_1").jPlayer("play"), document.documentElement.removeEventListener(t, e, !0) }; document.documentElement.addEventListener(t, e, !0) }, swfPath: "/js", loop: !0 }), $("body").addClass("tamarrbg") } $(document).ready(function () { $(".btn-group,.center").hide(0), $(".container").hide(0).delay(500).fadeIn(1500, function () { $(".btn-group,.center").delay(100).fadeIn(1500) }), $('[data-toggle="tooltip"]').tooltip(), $("#tamarro").hide(), $("#tralala,.tamico").mouseover(function () { $(".title").hasClass("tamarrized") || ($("body").addClass("troll"), $(this).html('<i style="margin-left:15px;" class="fa fa-hand-o-left tamico"></i><br /><i class="fa fa-hand-o-up tamico"></i>'), $(".title").html("Oh No! Don't Touch my Tralala!").addClass("text-shadow")) }), $(".tamico").mouseout(function () { $(".title").hasClass("tamarrized") || ($(this).parent().html('<i style="margin-left:15px;" class="fa fa-hand-o-left tamico"></i><br /><i class="fa fa-hand-o-up tamico"></i>'), $(".title").html("Oh No! Don't Touch my Tralala!")) }), $("#tralala").mouseout(function () { $(this).html(""), $("body").removeClass("troll"), $(".title").html("Vikkio's home").removeClass("text-shadow") }), $("body").on("click", function (a) { a.pageX <= 5 && a.pageY <= 5 && ($(this).off("click"), tamarrize()) }) });
-
-		</script>
-
-
-
-<style>
-
-			.troll,body{background-repeat:no-repeat;background-position:50% 0}#tamarro,#tralala{position:absolute}body{margin:0;padding:0;width:100%;height:100%;color:#000;display:table;font-weight:200;font-family:Lato;background-image:url(back.jpg);-ms-background-size:cover;-o-background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover}.tamarrized,.text-shadow{font-family:'Comic Sans MS'}.troll{background-image:url(http://img-cache.cdn.gaiaonline.com/4a9fe5258dc9691ce3f5e08e10453bbb/http://i1226.photobucket.com/albums/ee419/Johannes_Frantzen/trollface.png);-ms-background-size:cover;-o-background-size:cover;-moz-background-size:cover;-webkit-background-size:cover;background-size:cover}.text-shadow{color:red;text-shadow:#fff 5px 5px}.container{text-align:center;display:table-cell;vertical-align:middle}.content{text-align:center;display:inline-block}.title{font-size:76px;margin-bottom:40px}.quote{font-size:35px;width:50%;margin:auto}.title:hover{font-size:77px}.tamarrized{text-decoration:blink;color:#fff}.tamarrbg{background-image:url(https://31.media.tumblr.com/2f37155071c360d270f2b309bbc1ebff/tumblr_noxgq7PHrI1th8g8ao2_500.gif)}#tralala{width:20px;height:20px;top:0;left:0;text-align:left}#tamarro{bottom:0;left:50%;z-index:100}.center{margin:10px auto auto;width:50%;height:100px}.dropdown-menu{font-family:Roboto,sans-serif;left:50%;right:auto;text-align:center;transform:translate(-50%,0)}
-
-		</style>
+<style>nav .brand-logo,nav ul a{color:#444}p{line-height:2rem}.button-collapse{color:#26a69a}.parallax-container{min-height:380px;line-height:0;height:auto;color:rgba(255,255,255,.9)}.parallax-container .section{width:100%}@media only screen and (max-width :992px){.parallax-container .section{position:absolute;top:40%}#index-banner .section{top:10%}}@media only screen and (max-width :600px){#index-banner .section{top:0}}.icon-block{padding:0 15px}.icon-block .material-icons{font-size:inherit}footer.page-footer{margin:0}.chip:hover{cursor:pointer}</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 </head>
 
 <body>
+	<nav class="white" role="navigation">
+		<div class="nav-wrapper container">
+			<a id="logo-container" href="#" class="brand-logo">vikkio.it</a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="//vikkio88.wordpress.com">Blog</a></li>
+				<li><a href="//github.com/vikkio88">Github</a></li>
+				<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
+			</ul>
 
-	<div class="container">
 
-		<div id="tralala"></div>
+			<ul id="nav-mobile" class="side-nav">
+				<li><a href="//vikkio88.wordpress.com">Blog</a></li
+				<li><a href="//github.com/vikkio88">Github</a></li>
+				<li class="divider"></li>
+				<li><a href="./ascootaweb">aScoota</a></li>
+				<li><a href="./scoota">scoota</a></li>
+				<li><a href="./610">610 Player</a></li>
+				<li><a href="./paltamark">PaltaMark</a></li>
+				<li><a href="./taldata">talData</a></li>
+				<li><a href="./smallta">sMallta</a></li>
+			</ul>
+			<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+		</div>
+	</nav>
 
-		<a href="https://github.com/vikkio88/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkvikkio88.png" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
 
-<div class="content">
+	<ul id="dropdown1" class="dropdown-content">
+		<li><a href="./ascootaweb">aScoota</a></li>
+		<li><a href="./scoota">scoota</a></li>
+		<li><a href="./610">610 Player</a></li>
+		<li class="divider"></li>
+		<li><a href="./paltamark">PaltaMark</a></li>
+		<li><a href="./taldata">talData</a></li>
+		<li><a href="./smallta">sMallta</a></li>
+	</ul>
 
-	<div class="title">Vikkio's home</div>
-
-	<div class="btn-group" role="group" aria-label="Stuff">
-
-		<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="linkedin" onclick="window.location.href='https://www.linkedin.com/in/vikkio88'"><i class="fa fa-linkedin-square"></i></button>
-
-<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="about.me" onclick="window.location.href='https://about.me/vikkio88'"><i class="fa fa-user"></i></button>
-
-<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="wordpress" onclick="window.location.href='https://vikkio88.wordpress.com'"><i class="fa fa-wordpress"></i></button>
-
-<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="github" onclick="window.location.href='https://github.com/vikkio88'"><i class="fa fa-github"></i></button>
-
-<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="twitter" onclick="window.location.href='https://twitter.com/vikkio88'"><i class="fa fa-twitter"></i></button>
-
-<button type="button" class="btn-lg btn-info" data-toggle="tooltip" data-placement="bottom" title="facebook" onclick="window.location.href='https://facebook.com/vikkio88'"><i class="fa fa-facebook-official"></i></button>
-
-</div>
-
-<div class="center">
-
-	<div class="btn-group">
-
-		<button type="button" class="btn-lg btn-info dropdown-toggle" data-placement="bottom" title="Projects" data-toggle="dropdown"
-			aria-haspopup="true" aria-expanded="false">
-
-				<i class="fa fa-cogs"></i> <span class="caret"></span>
-
-			</button>
-
-		<ul class="dropdown-menu">
-
-			<li><a href="/paltamark/">PaltaMark <i class="fa fa-shopping-cart"></i> </a></li>
-
-			<li><a href="/smallta/">sMALlTA <i class="fa fa-map"></i></a></li>
-
-			<li> <a href="/taldata/">TalData <i class="fa fa-bus"></i></a></li>
-
-		</ul>
-
+	<div id="index-banner" class="parallax-container">
+		<div class="section no-pad-bot">
+			<div class="container">
+				<br><br>
+				<h1 class="header center teal-text text-lighten-5" style="text-shadow: black 2px 1px 1px;">Vincenzo Ciaccio</h1>
+				<div class="row center">
+					<img src="images/me.jpg" class="circle responsive-img" style="width: 25%;">
+					<h5 class="header col s12 light"></h5>
+				</div>
+				<br><br>
+			</div>
+		</div>
+		<div class="parallax"><img src="images/solette.jpg" alt="Unsplashed background img 1"></div>
 	</div>
 
-</div>
+	<div class="container" style="margin-bottom:100px;">
+		<div class="section">
+			<!--   Icon Section   -->
+			<div class="row">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center black-text">
+							<i class="material-icons">account_circle</i>
+						</h2>
+						<h5 class="center">Who am I?</h5>
 
-</div>
+						<p class="light">
+							My name is <strong>Vincenzo Ciaccio</strong> (vikkio on the internet), I am just a geek who does some stuff on the computers.<br>
+							My main skills are in computer science as a <strong>developer</strong>. I have an advanced knowledge of <strong>GNU/Linux</strong>.
+							I know and use many programming languages, among them I have a strong working knowledge of <strong>PHP</strong> and <strong>C#</strong>. <br>
+							Lately I've been working as well with <strong>Javascript</strong> (vanilla and with React Angularjs Vuejs2).
+						</p>
+					</div>
+				</div>
 
-<div id="tamarro"><img src="http://media.giphy.com/media/TeBpzQZRaBIC4/giphy.gif" usemap="#Map" />
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center black-text">
+							<i class="material-icons">location_on</i>
+						</h2>
+						<h5 class="center">Where?</h5>
+						<p class="light">
+							I am one of the 7 billion people on this planet, at the moment I am living and working in <a href="https://en.wikipedia.org/wiki/Chester" target="_blank"><strong>Chester (Uk)</strong></a> <br>
+							I was born in <strong>Sicily</strong> and most of the time I refer to myself as Sicilian, rather than Italian.<br>
+							I lived most of my life in <strong>Santa Margherita di Belice</strong>, small village in the south west of the island. Then for 5 years in <strong>Palermo</strong>, 2 years and a half in <strong>Malta</strong> and now in the <strong>UK</strong>.
+						</p>
+					</div>
+				</div>
 
-	<map name="Map" id="Map">
+				<div class="col s12 m4">
+					<div class="icon-block">
+						<h2 class="center black-text">
+							<i class="material-icons">web</i>
+						</h2>
+						<h5 class="center">On the Web</h5>
+						<p class="light">
+							You can find me around the web almost in every social network, even though I am not really active in 100% of them.
+							Here is a list of the one I use the most:
+						</p>
+						<p>
+							
+							<div class="chip" onclick="window.open('https://www.twitter.com/vikkio88')">
+    							<img src="images/logos/twitter.png" alt="Twitter">
+    							Twitter
+  							</div>
+							
+							<div class="chip" onclick="window.open('https://www.facebook.com/vikkio88')">
+    							<img src="images/logos/facebook.png" alt="Facebook">
+    							Facebook
+  							</div>
+							
+							<div class="chip" onclick="window.open('https://www.linkedin.com/in/vikkio88/')">
+    							<img src="images/logos/linkedin.png" alt="Linkedin">
+    							Linkedin
+  							</div>
+							
+							<div class="chip" onclick="window.open('https://www.github.com/vikkio88')">
+    							<img src="images/logos/github.png" alt="Github">
+    							Github
+  							</div>
+							
+							<div class="chip" onclick="window.open('https://www.medium.com/@vincenzociaccio')">
+    							<img src="images/logos/medium.png" alt="Medium">
+    							Medium
+  							</div>
+							
+							<div class="chip" onclick="window.open('https://vikkio88.wordpress.com')">
+    							<img src="images/logos/wordpress.png" alt="Wordpress">
+    							Wordpress
+  							</div>
+							
+						</p>
+					</div>
+				</div>
+			</div>
 
-    	<area alt="Snoop's Tralala" title="Snoop's Tralala" href="#" onclick="javascript:deTamarrize()" shape="poly" coords="122,395,117,416,121,436,141,437,158,437,177,434,179,421,176,404,168,387,136,385" />
+		</div>
+	</div>
 
-</map>
-
-<div id="jquery_jplayer_1"></div>
-</div>
-
-</div>
-
+	<footer class="page-footer teal" style="position: fixed; bottom: 0;width: 100%;">
+		<div class="footer-copyright">
+		<div class="container">
+			<span style="text-decoration: line-through">Made</span>Ripped-off from <a target="_blank" class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> with ♥ by <a href="http://www.vikkio.it" class="brown-text text-lighten-3">vikkio</a>
+		</div>
+		</div>
+  </footer>
 </body>
-
+<script>
+	(function($){
+		$(function(){
+			$('.button-collapse').sideNav();
+			$('.parallax').parallax();
+		}); // end of document ready
+	})(jQuery); // end of jQuery name space
+</script>
 </html>

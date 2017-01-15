@@ -8,6 +8,14 @@
 <changefreq>hourly</changefreq>
 </url>
 <url>
+<loc>http://vikkio.it/ascootaweb/</loc>
+<changefreq>hourly</changefreq>
+</url>
+<url>
+<loc>http://vikkio.it/scoota/</loc>
+<changefreq>daily</changefreq>
+</url>
+<url>
 <loc>http://vikkio.it/smallta/</loc>
 <changefreq>daily</changefreq>
 </url>
