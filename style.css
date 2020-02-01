@@ -7,7 +7,7 @@ body {
 	color: white;
 }
 
-h2.blackbg {
+.blackbg {
 	background-color: black !important;
 }
 
